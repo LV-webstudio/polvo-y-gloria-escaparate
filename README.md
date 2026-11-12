@@ -43,10 +43,8 @@ Las cuatro primeras eras forman el juego; la quinta está prevista como expansi�
 | *Prototipo: el coche n.º 15 de 1894 en un tramo real (terreno y firme provisionales).* | *Coche n.º 15 de 1894: render del modelo con materiales (librea en estudio).* |
 | ![Puesto de conducción](fotos/03-coche-n15-puesto-de-conduccion.jpg) | ![Modelo en gris](fotos/04-coche-n15-modelo-de-alta-en-gris.jpg) |
 | *El puesto de conducción: caña de dirección, palancas y asiento capitoné.* | *El modelo de alta definición, en gris, con sus piezas mecánicas.* |
-| ![Avería: rueda rota](fotos/05-prototipo-averias-rueda-rota.jpg) | ![Concepto de entreguerras, biplaza rojo](fotos/06-concepto-entreguerras-biplaza-rojo.jpg) |
-| *Prototipo: una rueda rota en la pista de pruebas.* | *Concepto (IA): un biplaza de entreguerras.* |
-| ![Concepto de entreguerras, turismo verde](fotos/07-concepto-entreguerras-turismo-verde.jpg) | |
-| *Concepto (IA): un turismo de entreguerras.* | |
+| ![Avería: rueda rota](fotos/05-prototipo-averias-rueda-rota.jpg) | |
+| *Prototipo: una rueda rota en la pista de pruebas.* | |
 
 ## Estado
 
@@ -59,7 +57,6 @@ Las cuatro primeras eras forman el juego; la quinta está prevista como expansi�
 ## Sobre las imágenes
 
 - El **banner** de cabecera es una **imagen generada con IA** (FLUX.1-schnell).
-- Las **imágenes conceptuales** (marcadas «Concepto (IA)») están **generadas con inteligencia artificial**. Sirven de referencia de diseño y no son imágenes del juego.
 - Las **capturas** son del **prototipo** en desarrollo y no representan la calidad final.
 - Los **renders** son del modelo 3D del coche del juego, todavía sin terminar.
 - Ninguna imagen muestra marcas ni logotipos de fabricantes reales.
@@ -72,4 +69,4 @@ Las cuatro primeras eras forman el juego; la quinta está prevista como expansi�
 
 ### In English
 
-**POLVO Y GLORIA** is a historical open-road racing game spanning 1894 to 1970, made by **Shania Webstudio** with the Godot engine. It covers five eras: I, 1894-1903; II, 1904-1914; III, 1919-1940; IV, 1947-1957; and V, 1958-1970, which is planned as an expansion. Races are held on real roads, with physics for each period car, damage and breakdowns, fuel and water consumption, and rivals that follow the same physics as the player. A cockpit view with three handling levels is being designed. Cars are inspired by real models but carry no real brands. Historic races that ended in tragedy unlock only after the game is completed and are treated with respect: the real accident is never recreated. The game is **in development, at prototype stage**, and has no release date. The banner and concept images are AI-generated; screenshots come from the prototype. © Shania Webstudio. All rights reserved.
+**POLVO Y GLORIA** is a historical open-road racing game spanning 1894 to 1970, made by **Shania Webstudio** with the Godot engine. It covers five eras: I, 1894-1903; II, 1904-1914; III, 1919-1940; IV, 1947-1957; and V, 1958-1970, which is planned as an expansion. Races are held on real roads, with physics for each period car, damage and breakdowns, fuel and water consumption, and rivals that follow the same physics as the player. A cockpit view with three handling levels is being designed. Cars are inspired by real models but carry no real brands. Historic races that ended in tragedy unlock only after the game is completed and are treated with respect: the real accident is never recreated. The game is **in development, at prototype stage**, and has no release date. The banner is AI-generated; screenshots come from the prototype. © Shania Webstudio. All rights reserved.
