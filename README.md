@@ -50,7 +50,7 @@ Las cuatro primeras eras forman el juego; la quinta está prevista como expansi�
 | ![Atardecer despejado, firme mojado](fotos/08-luz-atardecer-despejado-mojado.jpg) | ![Puesta de sol, firme seco](fotos/09-luz-puesta-de-sol-seco.jpg) |
 | *Prototipo: atardecer despejado con el firme mojado (calidad ultra).* | *Prototipo: puesta de sol con el firme seco (calidad ultra).* |
 
-Web: https://lv-webstudio.github.io/polvo-y-gloria-escaparate/
+Web: https://lv-webstudio.github.io/polvo-y-gloria-escaparate/ · English: https://lv-webstudio.github.io/polvo-y-gloria-escaparate/en/
 
 ## Estado
 
