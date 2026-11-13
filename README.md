@@ -45,6 +45,12 @@ Las cuatro primeras eras forman el juego; la quinta está prevista como expansi�
 | *El puesto de conducción: caña de dirección, palancas y asiento capitoné.* | *El modelo de alta definición, en gris, con sus piezas mecánicas.* |
 | ![Avería: rueda rota](fotos/05-prototipo-averias-rueda-rota.jpg) | |
 | *Prototipo: una rueda rota en la pista de pruebas.* | |
+| ![Luz de mañana, firme mojado](fotos/06-luz-manana-firme-mojado.jpg) | ![Atardecer nublado, firme mojado](fotos/07-luz-atardecer-nublado-mojado.jpg) |
+| *Prototipo: luz de mañana con el firme mojado (calidad ultra).* | *Prototipo: atardecer nublado con el firme mojado (calidad ultra).* |
+| ![Atardecer despejado, firme mojado](fotos/08-luz-atardecer-despejado-mojado.jpg) | ![Puesta de sol, firme seco](fotos/09-luz-puesta-de-sol-seco.jpg) |
+| *Prototipo: atardecer despejado con el firme mojado (calidad ultra).* | *Prototipo: puesta de sol con el firme seco (calidad ultra).* |
+
+Web: https://lv-webstudio.github.io/polvo-y-gloria-escaparate/
 
 ## Estado
 
