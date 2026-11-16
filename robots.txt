@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lv-webstudio.github.io/polvo-y-gloria-escaparate/sitemap.xml

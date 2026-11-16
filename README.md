@@ -1,4 +1,6 @@
-![](banner.jpg)
+# POLVO Y GLORIA — juego de carreras históricas en carretera abierta (1894-1970)
+
+![POLVO Y GLORIA, carreras históricas en carretera abierta](banner.jpg)
 
 <p align="center">
   <img src="logo.png" width="560" alt="POLVO Y GLORIA">
@@ -10,7 +12,7 @@
 
 Antes de los circuitos, las carreras se corrían por la carretera de todos: entre pueblos, sobre macadán y adoquín, con un mecánico a bordo y una nube de polvo detrás. **POLVO Y GLORIA** te sienta en esos coches, desde los primeros «coches sin caballos» de 1894, sin acelerador y con tres marchas, hasta los últimos grandes maratones de carretera de 1970. Aquí no gana el que más corre, sino el que sabe llevar su máquina hasta la meta: no calar en la cuesta, elegir bien la marcha, cuidar las ruedas y no quedarse sin agua.
 
-Es un juego de **Shania Webstudio**, hecho con el motor **Godot**, con un listón alto: acabado visual de gama alta e hiperrealista en un ámbito acotado, con pocas carreras y pocos coches, pero con mucha profundidad.
+Es un juego de **[Shania Webstudio](https://shaniawebstudio.com)** (Granada), hecho con el motor **Godot**, con un listón alto: acabado visual de gama alta e hiperrealista en un ámbito acotado, con pocas carreras y pocos coches, pero con mucha profundidad.
 
 ## Las eras
 
@@ -75,4 +77,4 @@ Web: https://lv-webstudio.github.io/polvo-y-gloria-escaparate/ · English: https
 
 ### In English
 
-**POLVO Y GLORIA** is a historical open-road racing game spanning 1894 to 1970, made by **Shania Webstudio** with the Godot engine. It covers five eras: I, 1894-1903; II, 1904-1914; III, 1919-1940; IV, 1947-1957; and V, 1958-1970, which is planned as an expansion. Races are held on real roads, with physics for each period car, damage and breakdowns, fuel and water consumption, and rivals that follow the same physics as the player. A cockpit view with three handling levels is being designed. Cars are inspired by real models but carry no real brands. Historic races that ended in tragedy unlock only after the game is completed and are treated with respect: the real accident is never recreated. The game is **in development, at prototype stage**, and has no release date. The banner is AI-generated; screenshots come from the prototype. © Shania Webstudio. All rights reserved.
+**POLVO Y GLORIA** is a historical open-road racing game spanning 1894 to 1970, made by **[Shania Webstudio](https://shaniawebstudio.com)** (Granada, Spain) with the Godot engine. It covers five eras: I, 1894-1903; II, 1904-1914; III, 1919-1940; IV, 1947-1957; and V, 1958-1970, which is planned as an expansion. Races are held on real roads, with physics for each period car, damage and breakdowns, fuel and water consumption, and rivals that follow the same physics as the player. A cockpit view with three handling levels is being designed. Cars are inspired by real models but carry no real brands. Historic races that ended in tragedy unlock only after the game is completed and are treated with respect: the real accident is never recreated. The game is **in development, at prototype stage**, and has no release date. The banner is AI-generated; screenshots come from the prototype. © Shania Webstudio. All rights reserved.
