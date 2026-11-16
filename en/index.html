@@ -343,6 +343,9 @@
       .masthead-top { flex-direction: column; gap: 0.3rem; text-align: center; }
       .era-years { white-space: normal; }
     }
+    .prose p { margin: 0 0 1rem; }
+    .prose ul, .info-block ol { margin: 0 0 1rem 1.4rem; }
+    .prose li, .info-block ol li { margin-bottom: 0.35rem; }
   </style>
 </head>
 <body>
@@ -372,7 +375,7 @@
       <p>It is a game by <strong>Shania Webstudio</strong>, made with the <strong>Godot</strong> engine, with a high bar: a premium, hyperrealistic visual finish within a focused scope, with few races and few cars, but a great deal of depth.</p>
     </section>
 
-    <div class="ornament-divider"><span>The eras</span></div>
+    <div class="ornament-divider"><span>The eras and progression</span></div>
 
     <section>
       <div class="table-wrapper">
@@ -380,136 +383,244 @@
           <thead>
             <tr>
               <th>Era</th>
-              <th>Name (working title)</th>
+              <th>Name (provisional)</th>
               <th style="text-align: right;">Years</th>
             </tr>
           </thead>
           <tbody>
             <tr><td class="era-num">I</td><td>The horseless carriages</td><td class="era-years">1894–1903</td></tr>
             <tr><td class="era-num">II</td><td>The circuit monsters</td><td class="era-years">1904–1914</td></tr>
-            <tr><td class="era-num">III</td><td>The interwar giants</td><td class="era-years">1919–1940</td></tr>
+            <tr><td class="era-num">III</td><td>The giants of the interwar years</td><td class="era-years">1919–1940</td></tr>
             <tr><td class="era-num">IV</td><td>The golden age of the road</td><td class="era-years">1947–1957</td></tr>
             <tr><td class="era-num">V</td><td>The last open roads <em>(expansion)</em></td><td class="era-years">1958–1970</td></tr>
           </tbody>
         </table>
       </div>
-      <p class="table-note">The first four eras make up the game; the fifth is planned as an expansion.</p>
+      <p class="table-note">The first four eras make up the game; the fifth is planned as an expansion. Work is currently on era I.</p>
+      <div class="prose">
+        <p><strong>How you advance</strong> (approved design, not yet in the prototype):</p>
+        <ul>
+          <li>You start with a car from 1894, No. 15, and little money, in 1894 gold francs. You earn money by driving.</li>
+          <li>Cars are divided into classes as in 1894: light petrol, touring petrol and steam. Each class has its own podium and prizes, besides the overall classification. Steam cars come after the petrol ones.</li>
+          <li>With what you earn you buy other cars of the period. In free race you can drive all of them from the start.</li>
+          <li>The Grand Contest chains the three real stages of Paris-Rouen, with the 1894 prizes.</li>
+          <li>Each championship gives you a legendary car.</li>
+          <li>Rivals have four levels: Amateur, Contestant, Builder and Master.</li>
+        </ul>
+      </div>
     </section>
 
-    <div class="ornament-divider"><span>What makes it different</span></div>
+    <div class="ornament-divider"><span>The first race: Paris-Rouen, 1894</span></div>
+
+    <section>
+      <div class="prose">
+        <p>On 22 July 1894 the horseless carriage contest from Paris to Rouen was run: 126 km, 102 entrants, 21 cars in the final and 17 arrivals at Rouen. The rules required an average of 12.5 km/h. In the game, the race is run in three stages of the real road:</p>
+      </div>
+      <div class="table-wrapper">
+        <table>
+          <thead><tr><th>Stage</th><th>Route</th><th style="text-align: right;">Length · max. gradient</th></tr></thead>
+          <tbody>
+            <tr><td class="era-num">1</td><td>Triel → Vaux → Meulan</td><td class="era-years">10.1 km · 12.8 %</td></tr>
+            <tr><td class="era-num">2</td><td>Rosny → Rolleboise → Bonnières</td><td class="era-years">7.3 km · 10.5 %</td></tr>
+            <tr><td class="era-num">3</td><td>Gaillon → Sainte-Barbe → Vieux-Villez → Heudebouville → Saint-Pierre-du-Vauvray</td><td class="era-years">13.2 km · 15.0 %</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="table-note">The other races of era I. In the development version you can already pick them from the menu, in testing:</p>
+      <div class="table-wrapper">
+        <table>
+          <thead><tr><th>Race</th><th>Stage</th><th style="text-align: right;">Length · max. gradient</th></tr></thead>
+          <tbody>
+            <tr><td>Paris-Bordeaux 1895</td><td>Versailles → Châteaufort → Saint-Rémy-lès-Chevreuse</td><td class="era-years">16.0 km · 15.0 %</td></tr>
+            <tr><td>Paris-Marseille 1896</td><td>Champs-sur-Yonne → Vincelles → Cravant</td><td class="era-years">11.1 km · 10.3 %</td></tr>
+            <tr><td>Marseille-Nice-La Turbie 1897</td><td>Grande Corniche: col de Villefranche → col d'Èze → La Turbie</td><td class="era-years">9.5 km · 15.0 %</td></tr>
+            <tr><td>Paris-Dieppe 1897</td><td>Éragny → Pontoise → Ennery</td><td class="era-years">7.2 km · 15.0 %</td></tr>
+            <tr><td>Paris-Trouville 1897</td><td>Descent of La Rivière-Thibouville</td><td class="era-years">13.4 km · 14.0 %</td></tr>
+            <tr><td>Tour of 1899</td><td>Orgeval → Chambourcy → Saint-Germain (route des Quarante-Sous)</td><td class="era-years">6.2 km · 10.5 %</td></tr>
+            <tr><td>Paris-Berlin 1901</td><td>Douzy → Sachy → Carignan</td><td class="era-years">11.0 km · 6.7 %</td></tr>
+            <tr><td>Paris-Madrid 1903</td><td>Châteaudun → Cloyes</td><td class="era-years">9.1 km · 8.4 %</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="table-note">Road gradients are capped at 15 %, because the 10 m terrain puts embankments into hillside roads.</p>
+    </section>
+
+    <div class="ornament-divider"><span>The cars of 1894</span></div>
 
     <section class="features-grid">
       <article class="feature-card">
-        <h3>Open road</h3>
-        <p>You race on roads and road circuits closed for the race, as it was done back then. The first stages follow the real 1894 Paris–Rouen road, at 1:1 scale and with the real terrain relief.</p>
+        <h3>Your car: No. 15</h3>
+        <p>Two-seater with a front engine, no throttle: the engine runs at a fixed speed. It has three gears, a chain to the rear axle and a tiller for steering, and an iron or solid rubber tyre, your choice. Its weight and power in the simulation are provisional, taken from period sources, and will be adjusted if better data appears.</p>
       </article>
       <article class="feature-card">
+        <h3>The 19 rivals of Paris-Rouen</h3>
+        <p>Each one is modelled from the engravings and photos of the event, with the number it carried in 1894. They are inspired by the cars of the event, with no brand names. In the development version they wait on the starting grid; making them drive the stage is the next step.</p>
+      </article>
+      <article class="feature-card feature-wide">
+        <h3>The grid</h3>
+        <p>No. 4, steam tractor with victoria · two-seater (27), break (31), fiacre (30), phaéton (65) and two vis-à-vis (28 and 42), on a tube frame with a rear engine · dos-à-dos (13), new-type four-seater (14), two-seater with steering wheel (24), four-seater with awning and fringes (64) and four-seater with a front engine (7) · victoria with a rear engine (85) · closed 6-seat omnibus (18), delivery van (19), light car heated by petroleum (44) and 9-seat breack (60) · steam break-omnibus (10) · tricycle (61).</p>
+      </article>
+    </section>
+
+    <div class="ornament-divider"><span>Driving and simulation</span></div>
+
+    <section class="features-grid">
+      <article class="feature-card">
         <h3>Period car physics</h3>
-        <p>Each car is simulated from its own data: weight, engine, gears, clutch, brakes, tyre type and road surface. The 1894 car runs at a fixed engine speed with three gears, and a hill can be more than enough to stop it.</p>
+        <p>Own simulation of each car: fixed-speed engine, slipping clutch, three gears, reverser (forward, neutral and reverse), tiller and brake.</p>
+      </article>
+      <article class="feature-card">
+        <h3>The road surface</h3>
+        <p>Cobblestone, good macadam and bad track, with their potholes. Each one can be felt in the grip and in the jolts.</p>
+      </article>
+      <article class="feature-card">
+        <h3>Crank and burner</h3>
+        <p>The engine is started with a crank. If it pulls away in the wrong gear or too abruptly, it jerks and can blow out the burner, which is relit with the car stopped.</p>
       </article>
       <article class="feature-card">
         <h3>Damage and breakdowns</h3>
-        <p>Wheels that break, leaf springs that give way, burners that go out. You have to repair along the way.</p>
+        <p>Wheels that break and are changed along the way, leaf springs that give way, and the engine that stalls if the clutch is not looked after.</p>
       </article>
       <article class="feature-card">
-        <h3>Consumption</h3>
-        <p>Fuel and water run down along the way (the 1894 car loses water every hour), and you have to plan for it.</p>
+        <h3>Controls</h3>
+        <p>Keyboard or gamepad. The menu has a guide, "How to drive".</p>
       </article>
-      <article class="feature-card">
-        <h3>Rivals with the same physics</h3>
-        <p>Rivals drive by the same rules as you, with no cheating: their difficulty comes from how they drive and how they look after their machines, not from hidden advantages.</p>
-      </article>
-      <article class="feature-card">
-        <h3>Cockpit and handling levels (in design)</h3>
-        <p>A view from the seat with the real controls, and three handling levels, from the full period experience to an assisted one, without changing the physics.</p>
-      </article>
+    </section>
+
+    <div class="ornament-divider"><span>Real maps: the Rolleboise hill</span></div>
+
+    <section class="prose">
+      <p>The stages come from the open data of the IGN of France: the real terrain at 10 m, the axis of the old national road (which today carries another number) and the état-major maps of 1820-1866, which give the villages, the water and the forest of the time. The generator turns the road of 2026 into the road of 1894.</p>
+      <p>In stage 2, between Rosny and Bonnières, the village streets of Rolleboise and Bonnières are <strong>cobblestone</strong>. The Rolleboise hill, with ramps of 5 to 7 %, is <strong>macadam</strong>. The type of surface is deduced from the practice of the time, not documented stage by stage.</p>
+    </section>
+
+    <div class="ornament-divider"><span>Historical rigour</span></div>
+
+    <section class="features-grid">
       <article class="feature-card feature-wide">
-        <h3>Historical accuracy</h3>
-        <p>Cars, roads and events are documented with sources, period sources whenever possible. The cars are inspired by real models, with their own names and details and no brands, and workshop parts are only those that existed in each era.</p>
+        <h3>With period sources</h3>
+        <p>Cars, roads and events documented with period sources whenever possible: magazines and newspapers of 1894, engravings and photos of the event, and the état-major maps. The cars are inspired by real models, with their own names and details and no brands. The workshop only has the parts that existed in each era. What the sources do not say is marked as an estimate, in the data and on the prototype screen.</p>
       </article>
       <article class="feature-card memory-box">
         <h3>The races of remembrance</h3>
-        <p>Some historic races ended in tragedy. They unlock after completing the game and are treated with respect: the real accident is never recreated, there is no celebration and no rewards for sale, and a documentary screen separates fact from fiction.</p>
+        <p>Some historical races ended in tragedy. They open when you complete the game and are treated with respect: the real accident is never recreated, there is no celebration or rewards that can be sold, and a documentary screen separates the facts from the fiction.</p>
       </article>
     </section>
 
-    <div class="ornament-divider"><span>Prototype gallery</span></div>
+    <div class="ornament-divider"><span>Technology</span></div>
 
-    <section class="gallery-grid">
-      <figure class="gallery-item gallery-zoom" tabindex="0">
-        <img src="../fotos/01-prototipo-n15-en-el-tramo-real.jpg" alt="Prototype: the 1894 car No. 15 on a real stage (provisional terrain and road surface)." loading="lazy">
-        <div class="gallery-title">1894 car on a real stage</div>
-        <figcaption class="gallery-caption">Prototype: the 1894 car No. 15 on a real stage (provisional terrain and road surface).</figcaption>
-      </figure>
-      <figure class="gallery-item gallery-zoom" tabindex="0">
-        <img src="../fotos/02-coche-n15-render-con-materiales.jpg" alt="1894 car No. 15: model render with materials (livery in progress)." loading="lazy">
-        <div class="gallery-title">1894 car render with materials</div>
-        <figcaption class="gallery-caption">1894 car No. 15: model render with materials (livery in progress).</figcaption>
-      </figure>
-      <figure class="gallery-item gallery-zoom" tabindex="0">
-        <img src="../fotos/03-coche-n15-puesto-de-conduccion.jpg" alt="The driving position: tiller steering, levers and button-tufted seat." loading="lazy">
-        <div class="gallery-title">Driving position</div>
-        <figcaption class="gallery-caption">The driving position: tiller steering, levers and button-tufted seat.</figcaption>
-      </figure>
-      <figure class="gallery-item gallery-zoom" tabindex="0">
-        <img src="../fotos/04-coche-n15-modelo-de-alta-en-gris.jpg" alt="The high-definition model, in grey, with its mechanical parts." loading="lazy">
-        <div class="gallery-title">Grey model</div>
-        <figcaption class="gallery-caption">The high-definition model, in grey, with its mechanical parts.</figcaption>
-      </figure>
-      <figure class="gallery-item gallery-zoom" tabindex="0">
-        <img src="../fotos/05-prototipo-averias-rueda-rota.jpg" alt="Prototype: a broken wheel on the test track." loading="lazy">
-        <div class="gallery-title">Breakdown: broken wheel</div>
-        <figcaption class="gallery-caption">Prototype: a broken wheel on the test track.</figcaption>
-      </figure>
+    <section class="features-grid">
+      <article class="feature-card">
+        <h3>Godot 4.7</h3>
+        <p>With .NET: the car simulation is in C# and the game is in GDScript.</p>
+      </article>
+      <article class="feature-card">
+        <h3>Blender by code</h3>
+        <p>Each car is built with a Python script (frame, wheels, leaf springs, lamps, seats), with materials, levels of detail and collisions.</p>
+      </article>
+      <article class="feature-card">
+        <h3>Maps by code</h3>
+        <p>A Python generator reads the IGN data and produces the terrain, the terrain types and the axis of each stage.</p>
+      </article>
+      <article class="feature-card feature-wide">
+        <h3>Automated tests</h3>
+        <p>On every change they check that the simulation gives the same result inside and outside Godot, as well as the menus, the controls, the road surface and the breakdowns.</p>
+      </article>
     </section>
 
-    <div class="ornament-divider"><span>Light on the road</span></div>
-
-    <p class="table-note">The same real stage, with the car moving at 26.8 km/h, at different times of day and on a dry or wet surface. Prototype screenshots at ultra quality (1920 × 1080).</p>
+    <div class="ornament-divider"><span>Gallery</span></div>
 
     <section class="gallery-grid">
       <figure class="gallery-item gallery-zoom" tabindex="0">
-        <img src="../fotos/06-luz-manana-firme-mojado.jpg" alt="Prototype: morning light on a wet surface on the real stage." loading="lazy">
-        <div class="gallery-title">Morning, wet surface</div>
-        <figcaption class="gallery-caption">Prototype: morning light on a wet surface (ultra quality; provisional terrain).</figcaption>
+        <img src="../fotos/10-rolleboise-travesia-de-adoquin.jpg" alt="Car No. 15 on the cobblestone street of Rolleboise" loading="lazy">
+        <div class="gallery-title">Car No. 15 on the cobblestone street of Rolleboise</div>
+        <figcaption class="gallery-caption">Cobblestone street of Rolleboise (stage 2). Real screenshot of the development version; provisional terrain, no vegetation.</figcaption>
       </figure>
       <figure class="gallery-item gallery-zoom" tabindex="0">
-        <img src="../fotos/07-luz-atardecer-nublado-mojado.jpg" alt="Prototype: overcast late afternoon on a wet surface." loading="lazy">
-        <div class="gallery-title">Overcast late afternoon, wet surface</div>
-        <figcaption class="gallery-caption">Prototype: overcast late afternoon on a wet surface (ultra quality; provisional terrain).</figcaption>
+        <img src="../fotos/11-rolleboise-cuesta-de-macadan.jpg" alt="The macadam hill of Rolleboise" loading="lazy">
+        <div class="gallery-title">The macadam hill of Rolleboise</div>
+        <figcaption class="gallery-caption">The macadam hill of Rolleboise. Real screenshot of the development version.</figcaption>
       </figure>
       <figure class="gallery-item gallery-zoom" tabindex="0">
-        <img src="../fotos/08-luz-atardecer-despejado-mojado.jpg" alt="Prototype: clear late afternoon on a wet surface." loading="lazy">
-        <div class="gallery-title">Clear late afternoon, wet surface</div>
-        <figcaption class="gallery-caption">Prototype: clear late afternoon on a wet surface (ultra quality; provisional terrain).</figcaption>
+        <img src="../fotos/12-salida-con-los-19-rivales.jpg" alt="Start with the 19 rivals on the grid" loading="lazy">
+        <div class="gallery-title">Start with the 19 rivals on the grid</div>
+        <figcaption class="gallery-caption">The start, with the 19 rivals on the grid. Real screenshot of the development version.</figcaption>
       </figure>
       <figure class="gallery-item gallery-zoom" tabindex="0">
-        <img src="../fotos/09-luz-puesta-de-sol-seco.jpg" alt="Prototype: sunset on a dry surface." loading="lazy">
-        <div class="gallery-title">Sunset, dry surface</div>
-        <figcaption class="gallery-caption">Prototype: sunset on a dry surface (ultra quality; provisional terrain).</figcaption>
+        <img src="../fotos/13-grande-corniche-la-turbie.jpg" alt="Grande Corniche, towards La Turbie" loading="lazy">
+        <div class="gallery-title">Grande Corniche, towards La Turbie</div>
+        <figcaption class="gallery-caption">Grande Corniche, towards La Turbie (1897). Real screenshot of the development version.</figcaption>
+      </figure>
+      <figure class="gallery-item gallery-zoom" tabindex="0">
+        <img src="../fotos/14-mapa-tramo-rolleboise.jpg" alt="Map of the Rolleboise stage" loading="lazy">
+        <div class="gallery-title">Map of the Rolleboise stage</div>
+        <figcaption class="gallery-caption">Stage 2 over the terrain (left) and over the état-major map (right), with its profile. Map generated from IGN data.</figcaption>
+      </figure>
+      <figure class="gallery-item gallery-zoom" tabindex="0">
+        <img src="../fotos/15-los-19-coches-render.jpg" alt="The 19 rival cars of 1894" loading="lazy">
+        <div class="gallery-title">The 19 rival cars of 1894</div>
+        <figcaption class="gallery-caption">The 19 rivals of 1894. Render of the 3D model.</figcaption>
+      </figure>
+      <figure class="gallery-item gallery-zoom" tabindex="0">
+        <img src="../fotos/16-tractor-de-vapor-n4-render.jpg" alt="Steam tractor No. 4" loading="lazy">
+        <div class="gallery-title">Steam tractor No. 4</div>
+        <figcaption class="gallery-caption">Steam tractor No. 4 with its victoria. Render of the 3D model.</figcaption>
+      </figure>
+      <figure class="gallery-item gallery-zoom" tabindex="0">
+        <img src="../fotos/17-coche-con-toldo-n64-render.jpg" alt="Car No. 64 with awning and fringes" loading="lazy">
+        <div class="gallery-title">Car No. 64 with awning and fringes</div>
+        <figcaption class="gallery-caption">No. 64, with awning and fringes. Render of the 3D model.</figcaption>
+      </figure>
+      <figure class="gallery-item gallery-zoom" tabindex="0">
+        <img src="../fotos/18-break-omnibus-de-vapor-n10-render.jpg" alt="Steam break-omnibus No. 10" loading="lazy">
+        <div class="gallery-title">Steam break-omnibus No. 10</div>
+        <figcaption class="gallery-caption">Steam break-omnibus No. 10. Render of the 3D model.</figcaption>
+      </figure>
+      <figure class="gallery-item gallery-zoom" tabindex="0">
+        <img src="../fotos/02-coche-n15-render-con-materiales.jpg" alt="Car No. 15 with materials" loading="lazy">
+        <div class="gallery-title">Car No. 15 with materials</div>
+        <figcaption class="gallery-caption">Your car, No. 15. Render of the model with materials (studio livery).</figcaption>
+      </figure>
+      <figure class="gallery-item gallery-zoom" tabindex="0">
+        <img src="../fotos/03-coche-n15-puesto-de-conduccion.jpg" alt="Driving position" loading="lazy">
+        <div class="gallery-title">Driving position</div>
+        <figcaption class="gallery-caption">The driving position: tiller, levers and tufted seat. Render.</figcaption>
+      </figure>
+      <figure class="gallery-item gallery-zoom" tabindex="0">
+        <img src="../fotos/06-luz-manana-firme-mojado.jpg" alt="Morning light, wet road surface" loading="lazy">
+        <div class="gallery-title">Morning light, wet road surface</div>
+        <figcaption class="gallery-caption">Morning light with a wet road surface. Real screenshot of the prototype, ultra quality.</figcaption>
       </figure>
     </section>
 
     <section class="info-columns">
       <div class="info-block">
         <h3>Status</h3>
-        <p>In development, prototype stage. The first 1894 car can already be driven on a real stage, with its physics, gears and breakdowns. Graphics, terrain, sound and content are provisional and will change. There is no release date.</p>
-
+        <p>In development, prototype. You can already drive the 1894 car on the real stages, with its physics, its gears and its breakdowns. Graphics, terrain, sound and content are provisional and will change: there is still no vegetation or villages on the stages. There is no release date.</p>
+        <h3 class="siguiente">What comes next (no dates)</h3>
+        <ol>
+          <li>Rivals that drive the stage with the same physics as you, set off every 30 seconds as in 1894 and later overtake.</li>
+          <li>Vegetation, villages and sky on the stages.</li>
+          <li>The career: money, garage, the Grand Contest and the legendary cars.</li>
+          <li>The Museum: see the cars in high quality, open them, start them, hear them and get in, with their photo and their history.</li>
+          <li>The cab and the three handling levels.</li>
+          <li>Eras II to IV and, after that, the era V expansion.</li>
+        </ol>
         <h3 class="siguiente">The studio</h3>
-        <p><strong>POLVO Y GLORIA</strong> is a <strong>Shania Webstudio</strong> project. Contact: <a href="mailto:hola@shaniawebstudio.com">hola@shaniawebstudio.com</a> · <a href="https://shaniawebstudio.com">shaniawebstudio.com</a></p>
+        <p><strong>POLVO Y GLORIA</strong> is a project by <strong>Shania Webstudio</strong>, Granada (Spain). Contact: <a href="mailto:hola@shaniawebstudio.com">hola@shaniawebstudio.com</a> · <a href="https://shaniawebstudio.com">shaniawebstudio.com</a></p>
       </div>
 
       <div class="info-block">
         <h3>About the images</h3>
         <ul>
           <li>The header banner is an AI-generated image (FLUX.1-schnell).</li>
-          <li>Screenshots come from the prototype in development and do not represent final quality.</li>
-          <li>Renders show the game's 3D car model, still unfinished.</li>
+          <li>The screenshots are from the prototype in development, without the interface, and do not represent the final quality.</li>
+          <li>The renders are of the 3D models of the game's cars, still unfinished.</li>
           <li>No image shows brands or logos of real manufacturers.</li>
+          <li>Mapping and terrain: © IGN – RGE ALTI®, BD TOPO®, SCAN État-major® 10K and 40K and BD CARTO® État-major, under the Licence Ouverte Etalab 2.0. Data consulted between 12 and 15 November 2026. It is a derived work: resampled terrain, terrain types and a route returned to 1894.</li>
         </ul>
       </div>
     </section>
-
 
     <footer>
       <p>© Shania Webstudio · All rights reserved</p>
