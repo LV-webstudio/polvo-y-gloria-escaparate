@@ -164,7 +164,7 @@ Lo que viene, en este orden y **sin fechas prometidas**:
 ## Sobre las imágenes
 
 - El **banner** de cabecera es una **imagen generada con IA** (FLUX.1 [schnell]).
-- **Imágenes hechas con IA:** el banner y los conceptos de rivales, fauna, coches y personas de la galería, todos generados con FLUX.1 [schnell]. Cada una lleva en una esquina la marca «Imagen generada con IA · AI-generated image». Las capturas, los renders y el mapa no están generados con IA.
+- **Imágenes hechas con IA:** el banner y los conceptos de rivales, fauna, coches y personas de la galería, todos generados con FLUX.1 [schnell]. Cada una lleva en una esquina la marca «Imagen generada con IA · AI-generated image». Las capturas del juego, los renders de los modelos 3D y el mapa son de nuestro trabajo; algunos modelos parten de conceptos o mallas hechos con ayuda de IA.
 - Las **capturas** son del prototipo en desarrollo, sin la interfaz, y no representan la calidad final.
 - Los **renders** son de los modelos 3D de los coches del juego, todavía sin terminar.
 - Ninguna imagen muestra marcas ni logotipos de fabricantes reales.
