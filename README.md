@@ -1,8 +1,8 @@
 # POLVO Y GLORIA — juego de carreras históricas en carretera abierta (1894-1970)
 
-> **Juego en desarrollo.** POLVO Y GLORIA todavía no está terminado: las imágenes de esta página son de trabajo y pueden cambiar. *Actualizado el 25 de noviembre de 2026.*
+> **Juego en desarrollo.** POLVO Y GLORIA todavía no está terminado y no está a la venta. Lo que se describe aquí son objetivos de diseño que pueden cambiar o quedarse fuera; las imágenes son de trabajo, y las generadas con IA no muestran el aspecto del juego. *Actualizado el 25 de noviembre de 2026.*
 
-![POLVO Y GLORIA, carreras históricas en carretera abierta](banner.jpg)
+![POLVO Y GLORIA, carreras históricas en carretera abierta (imagen generada con IA; no es una captura del juego)](banner.jpg)
 
 <p align="center">
   <img src="logo.png" width="560" alt="POLVO Y GLORIA">
@@ -18,7 +18,7 @@
 
 Antes de los circuitos, las carreras se corrían por la carretera de todos: entre pueblos, sobre macadán y adoquín, con un mecánico a bordo y una nube de polvo detrás. **POLVO Y GLORIA** te sienta en esos coches, desde los primeros «coches sin caballos» de 1894, sin acelerador y con tres marchas, hasta los últimos grandes maratones de carretera de 1970. Aquí no gana el que más corre, sino el que sabe llevar su máquina hasta la meta: no calar en la cuesta, elegir bien la marcha, cuidar las ruedas y no quedarse sin agua.
 
-Es un juego de **[Shania Webstudio](https://shaniawebstudio.com)** (Granada), hecho con el motor **Godot**. El listón es alto: un acabado visual de gama alta e hiperrealista en un ámbito acotado, con pocas carreras y pocos coches, pero con mucha profundidad.
+Es un juego de **[Shania Webstudio](https://shaniawebstudio.com)** (Granada), hecho con el motor **Godot**. El objetivo es alto: buscamos un acabado visual de gama alta e hiperrealista en un ámbito acotado, con pocas carreras y pocos coches, pero con mucha profundidad.
 
 ## Las épocas y la progresión
 
@@ -144,42 +144,45 @@ Lo que viene, en este orden y **sin fechas prometidas**:
 |---|---|
 | ![El coche n.º 15 en la travesía de adoquín de Rolleboise](fotos/10-rolleboise-travesia-de-adoquin.jpg) | ![La cuesta de macadán de Rolleboise](fotos/11-rolleboise-cuesta-de-macadan.jpg) |
 | *Travesía de adoquín de Rolleboise (tramo 2). Captura real de la versión de desarrollo; terreno provisional, sin vegetación.* | *La cuesta de macadán de Rolleboise. Captura real de la versión de desarrollo.* |
-| ![Salida con los 19 rivales en la parrilla](fotos/12-salida-con-los-19-rivales.jpg) | ![Grande Corniche, hacia La Turbie](fotos/13-grande-corniche-la-turbie.jpg) |
-| *La salida, con los 19 rivales en la parrilla. Captura real de la versión de desarrollo.* | *Grande Corniche, hacia La Turbie (1897). Captura real de la versión de desarrollo.* |
-| ![Mapa del tramo de Rolleboise](fotos/14-mapa-tramo-rolleboise.jpg) | ![Los 19 coches rivales de 1894](fotos/15-los-19-coches-render.jpg) |
-| *El tramo 2 sobre el relieve (izquierda) y sobre la carta del état-major (derecha), con su perfil. Mapa generado con datos del IGN.* | *Los 19 rivales de 1894. Render del modelo 3D.* |
-| ![Tractor de vapor n.º 4](fotos/16-tractor-de-vapor-n4-render.jpg) | ![Coche n.º 64 con toldo y flecos](fotos/17-coche-con-toldo-n64-render.jpg) |
-| *El tractor de vapor n.º 4 con su victoria. Render del modelo 3D.* | *El n.º 64, con toldo y flecos. Render del modelo 3D.* |
-| ![Break-ómnibus de vapor n.º 10](fotos/18-break-omnibus-de-vapor-n10-render.jpg) | ![Coche n.º 15 con materiales](fotos/02-coche-n15-render-con-materiales.jpg) |
-| *El break-ómnibus de vapor n.º 10. Render del modelo 3D.* | *Tu coche, el n.º 15. Render del modelo con materiales (librea en estudio).* |
+| ![Salida con los 19 rivales en la parrilla (modelos a partir de mallas generadas con IA)](fotos/12-salida-con-los-19-rivales.jpg) | ![Grande Corniche, hacia La Turbie (rivales a partir de mallas generadas con IA)](fotos/13-grande-corniche-la-turbie.jpg) |
+| *La salida, con los 19 rivales en la parrilla. Captura real de la versión de desarrollo; los modelos de los rivales parten de mallas generadas con IA.* | *Grande Corniche, hacia La Turbie (1897). Captura real de la versión de desarrollo; los modelos de los rivales parten de mallas generadas con IA.* |
+| ![Mapa del tramo de Rolleboise](fotos/14-mapa-tramo-rolleboise.jpg) | ![Los 19 coches rivales de 1894 (render de modelos a partir de mallas generadas con IA)](fotos/15-los-19-coches-render.jpg) |
+| *El tramo 2 sobre el relieve (izquierda) y sobre la carta del état-major (derecha), con su perfil. Mapa generado con datos del IGN.* | *Los 19 rivales de 1894. Render de los modelos 3D, que parten de mallas generadas con IA.* |
+| ![Tractor de vapor n.º 4 (render de un modelo a partir de una malla generada con IA)](fotos/16-tractor-de-vapor-n4-render.jpg) | ![Coche n.º 64 con toldo y flecos (render de un modelo a partir de una malla generada con IA)](fotos/17-coche-con-toldo-n64-render.jpg) |
+| *El tractor de vapor n.º 4 con su victoria. Render del modelo 3D, que parte de una malla generada con IA.* | *El n.º 64, con toldo y flecos. Render del modelo 3D, que parte de una malla generada con IA.* |
+| ![Break-ómnibus de vapor n.º 10 (render de un modelo a partir de una malla generada con IA)](fotos/18-break-omnibus-de-vapor-n10-render.jpg) | ![Coche n.º 15 con materiales](fotos/02-coche-n15-render-con-materiales.jpg) |
+| *El break-ómnibus de vapor n.º 10. Render del modelo 3D, que parte de una malla generada con IA.* | *Tu coche, el n.º 15. Render del modelo con materiales (librea en estudio).* |
 | ![Puesto de conducción](fotos/03-coche-n15-puesto-de-conduccion.jpg) | ![Luz de mañana, firme mojado](fotos/06-luz-manana-firme-mojado.jpg) |
 | *El puesto de conducción: caña de dirección, palancas y asiento capitoné. Render.* | *Luz de mañana con el firme mojado. Captura real del prototipo, calidad ultra.* |
-| ![Conceptos de rivales de 1894 (I)](fotos/19-conceptos-rivales-1894-a.jpg) | ![Conceptos de rivales de 1894 (II)](fotos/20-conceptos-rivales-1894-b.jpg) |
-| *Conceptos de vehículos rivales inspirados en la carrera París-Ruan de 1894. Imagen generada con IA (FLUX.1 [schnell]); no es una captura del juego.* | *Más conceptos de vehículos rivales inspirados en la carrera París-Ruan de 1894. Imagen generada con IA (FLUX.1 [schnell]).* |
-| ![Fauna del valle del Sena, 1894](fotos/23-conceptos-fauna-sena-1894.jpg) | ![Coches de entreguerras](fotos/21-conceptos-coches-entreguerras.jpg) |
-| *Vaca normanda, caballo de silla, caballo de tiro, oveja merina, garza real y ánade real. Conceptos generados con IA (FLUX.1 [schnell]).* | *Conceptos de coches de los años 20 y 30, para la época de entreguerras. Imagen generada con IA (FLUX.1 [schnell]).* |
-| ![La gente de entreguerras](fotos/22-conceptos-personas-entreguerras.jpg) | |
-| *Conceptos de personas de los años 20 y 30, de frente, con la ropa de la época. Imagen generada con IA (FLUX.1 [schnell]); no son personas reales.* | |
+| ![Conceptos de rivales de 1894 (I) (imagen generada con IA)](fotos/19-conceptos-rivales-1894-a.jpg) | ![Conceptos de rivales de 1894 (II) (imagen generada con IA)](fotos/20-conceptos-rivales-1894-b.jpg) |
+| *Conceptos de vehículos rivales inspirados en la carrera París-Ruan de 1894. Imagen generada con IA (FLUX.1 [schnell]); no es una captura del juego ni la foto de un vehículo real.* | *Más conceptos de vehículos rivales inspirados en la carrera París-Ruan de 1894. Imagen generada con IA (FLUX.1 [schnell]); no es una captura del juego ni la foto de un vehículo real.* |
+| ![Fauna del valle del Sena, 1894 (imagen generada con IA)](fotos/23-conceptos-fauna-sena-1894.jpg) | ![Coches de entreguerras (imagen generada con IA)](fotos/21-conceptos-coches-entreguerras.jpg) |
+| *Vaca normanda, caballo de silla, caballo de tiro, oveja merina, garza real y ánade real. Conceptos generados con IA (FLUX.1 [schnell]); no es una captura del juego.* | *Conceptos de coches de los años 20 y 30, para la época de entreguerras. Imagen generada con IA (FLUX.1 [schnell]); no es una captura del juego ni la foto de un coche real.* |
+| ![La gente de entreguerras (imagen generada con IA)](fotos/22-conceptos-personas-entreguerras.jpg) | |
+| *Conceptos de personas de los años 20 y 30, de frente, con ropa inspirada en la época. Imagen generada con IA (FLUX.1 [schnell]); no es una captura del juego y no representa a personas reales.* | |
 
 ## Sobre las imágenes
 
 - El **banner** de cabecera es una **imagen generada con IA** (FLUX.1 [schnell]).
-- **Imágenes hechas con IA:** el banner y los conceptos de rivales, fauna, coches y personas de la galería, todos generados con FLUX.1 [schnell]. Cada una lleva en una esquina la marca «Imagen generada con IA · AI-generated image». Las capturas del juego, los renders de los modelos 3D y el mapa son de nuestro trabajo; algunos modelos parten de conceptos o mallas hechos con ayuda de IA.
+- **Imágenes hechas con IA:** el banner y los conceptos de rivales, fauna, coches y personas de la galería, todos generados con FLUX.1 [schnell]. Cada una lleva en una esquina la marca «Imagen generada con IA · AI-generated image». Las capturas del juego, los renders de los modelos 3D y el mapa son trabajo nuestro, sin IA generativa, salvo los modelos de los rivales de 1894, que parten de mallas plantilla generadas con TripoSG a partir de imágenes de FLUX.1 [schnell]; los renders y las capturas en los que aparecen llevan también la marca.
 - Las **capturas** son del prototipo en desarrollo, sin la interfaz, y no representan la calidad final.
 - Los **renders** son de los modelos 3D de los coches del juego, todavía sin terminar.
 - Ninguna imagen muestra marcas ni logotipos de fabricantes reales.
-- **Cartografía y relieve:** © IGN – RGE ALTI®, BD TOPO®, SCAN État-major® 10K y 40K y BD CARTO® État-major, bajo la Licence Ouverte Etalab 2.0. Datos consultados entre el 12 y el 15 de noviembre de 2026. Es obra derivada: relieve remuestreado, tipos de terreno y trazado devuelto a 1894.
+- **Cartografía y relieve:** IGN (Institut national de l'information géographique et forestière, Francia) – RGE ALTI® (actualización del 1 de octubre de 2026), BD TOPO® (actualización del 12 de noviembre de 2026), SCAN État-major® 10K (edición del 12 de enero de 2011) y 40K (edición del 1 de octubre de 2011) y BD CARTO® État-major (actualización del 9 de octubre de 2026), según sus fichas de metadatos. Datos originales descargados de la Géoplateforme del IGN (geoservices.ign.fr, data.geopf.fr) entre el 12 y el 15 de noviembre de 2026 y reutilizados bajo la [Licence Ouverte Etalab 2.0](https://www.etalab.gouv.fr/licence-ouverte-open-licence/). Obra derivada: relieve remuestreado, tipos de terreno y trazado devuelto a 1894.
 
 ## Créditos y licencias
 
 - **Godot Engine**, el motor del juego (licencia MIT).
 - **Blender**, para los modelos y los renders de los coches (licencia GPL; los modelos y las imágenes que salen de Blender son nuestros).
 - **FLUX.1 [schnell]**, de Black Forest Labs, para las imágenes generadas con IA (licencia Apache-2.0).
+- **TripoSG**, de VAST-AI, para las mallas plantilla de los rivales de 1894 (licencia MIT).
+- **BiRefNet**, para recortar el fondo de las imágenes antes de generar las mallas (licencia MIT).
+- **scikit-image**, para extraer la superficie de las mallas (licencia BSD-3).
 - Datos del **IGN** de Francia, bajo la Licence Ouverte Etalab 2.0 (ver «Sobre las imágenes»).
 
 ## El estudio
 
-**POLVO Y GLORIA** es un proyecto de **[Shania Webstudio](https://shaniawebstudio.com)**, Granada (España). Contacto: hola@shaniawebstudio.com
+**POLVO Y GLORIA** es un proyecto de **[Shania Webstudio](https://shaniawebstudio.com)**, Granada (España). Contacto: hola@shaniawebstudio.com · [Aviso legal](https://shaniawebstudio.com/aviso-legal)
 
 ## Licencia
 
