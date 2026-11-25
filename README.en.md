@@ -1,8 +1,8 @@
 # POLVO Y GLORIA — historical open-road racing game (1894-1970)
 
-> **Game in development.** POLVO Y GLORIA is not finished and is not on sale. What is described here are design goals that may change or be left out; the images are work in progress, and the AI-generated ones do not show what the game looks like. *Updated on 25 November 2026.*
+> **Game in development.** POLVO Y GLORIA is not finished and is not on sale. What is described here are design goals that may change or be left out; the images are work in progress. *Updated on 25 November 2026.*
 
-![POLVO Y GLORIA, historical open-road racing (AI-generated image; not a game screenshot)](banner.jpg)
+![POLVO Y GLORIA, historical open-road racing](banner.jpg)
 
 <p align="center">
   <img src="logo.png" width="560" alt="POLVO Y GLORIA">
@@ -144,27 +144,25 @@ What comes next, in this order and **with no promised dates**:
 |---|---|
 | ![Car No. 15 on the cobblestone street of Rolleboise](fotos/10-rolleboise-travesia-de-adoquin.jpg) | ![The macadam hill of Rolleboise](fotos/11-rolleboise-cuesta-de-macadan.jpg) |
 | *Cobblestone street of Rolleboise (stage 2). Real screenshot of the development version; provisional terrain, no vegetation.* | *The macadam hill of Rolleboise. Real screenshot of the development version.* |
-| ![Start with the 19 rivals on the grid (models based on AI-generated meshes)](fotos/12-salida-con-los-19-rivales.jpg) | ![Grande Corniche, towards La Turbie (rivals based on AI-generated meshes)](fotos/13-grande-corniche-la-turbie.jpg) |
-| *The start, with the 19 rivals on the grid. Real screenshot of the development version; the rivals' models are based on AI-generated meshes.* | *Grande Corniche, towards La Turbie (1897). Real screenshot of the development version; the rivals' models are based on AI-generated meshes.* |
-| ![Map of the Rolleboise stage](fotos/14-mapa-tramo-rolleboise.jpg) | ![The 19 rival cars of 1894 (render of models based on AI-generated meshes)](fotos/15-los-19-coches-render.jpg) |
-| *Stage 2 over the terrain (left) and over the état-major map (right), with its profile. Map generated from IGN data.* | *The 19 rivals of 1894. Render of the 3D models, which are based on AI-generated meshes.* |
-| ![Steam tractor No. 4 (render of a model based on an AI-generated mesh)](fotos/16-tractor-de-vapor-n4-render.jpg) | ![Car No. 64 with awning and fringes (render of a model based on an AI-generated mesh)](fotos/17-coche-con-toldo-n64-render.jpg) |
-| *Steam tractor No. 4 with its victoria. Render of the 3D model, which is based on an AI-generated mesh.* | *No. 64, with awning and fringes. Render of the 3D model, which is based on an AI-generated mesh.* |
-| ![Steam break-omnibus No. 10 (render of a model based on an AI-generated mesh)](fotos/18-break-omnibus-de-vapor-n10-render.jpg) | ![Car No. 15 with materials](fotos/02-coche-n15-render-con-materiales.jpg) |
-| *Steam break-omnibus No. 10. Render of the 3D model, which is based on an AI-generated mesh.* | *Your car, No. 15. Render of the model with materials (studio livery).* |
+| ![Start with the 19 rivals on the grid](fotos/12-salida-con-los-19-rivales.jpg) | ![Grande Corniche, towards La Turbie](fotos/13-grande-corniche-la-turbie.jpg) |
+| *The start, with the 19 rivals on the grid. Real screenshot of the development version.* | *Grande Corniche, towards La Turbie (1897). Real screenshot of the development version.* |
+| ![Map of the Rolleboise stage](fotos/14-mapa-tramo-rolleboise.jpg) | ![The 19 rival cars of 1894 (render of the 3D models)](fotos/15-los-19-coches-render.jpg) |
+| *Stage 2 over the terrain (left) and over the état-major map (right), with its profile. Map generated from IGN data.* | *The 19 rivals of 1894. Render of the 3D models.* |
+| ![Steam tractor No. 4 (render of the 3D model)](fotos/16-tractor-de-vapor-n4-render.jpg) | ![Car No. 64 with awning and fringes (render of the 3D model)](fotos/17-coche-con-toldo-n64-render.jpg) |
+| *Steam tractor No. 4 with its victoria. Render of the 3D model.* | *No. 64, with awning and fringes. Render of the 3D model.* |
+| ![Steam break-omnibus No. 10 (render of the 3D model)](fotos/18-break-omnibus-de-vapor-n10-render.jpg) | ![Car No. 15 with materials](fotos/02-coche-n15-render-con-materiales.jpg) |
+| *Steam break-omnibus No. 10. Render of the 3D model.* | *Your car, No. 15. Render of the model with materials (studio livery).* |
 | ![Driving position](fotos/03-coche-n15-puesto-de-conduccion.jpg) | ![Morning light, wet road surface](fotos/06-luz-manana-firme-mojado.jpg) |
 | *The driving position: tiller, levers and tufted seat. Render.* | *Morning light with a wet road surface. Real screenshot of the prototype, ultra quality.* |
-| ![1894 rival concepts (I) (AI-generated image)](fotos/19-conceptos-rivales-1894-a.jpg) | ![1894 rival concepts (II) (AI-generated image)](fotos/20-conceptos-rivales-1894-b.jpg) |
-| *Concepts of rival vehicles inspired by the 1894 Paris-Rouen race. AI-generated image (FLUX.1 [schnell]); not a game screenshot or a photo of a real vehicle.* | *More concepts of rival vehicles inspired by the 1894 Paris-Rouen race. AI-generated image (FLUX.1 [schnell]); not a game screenshot or a photo of a real vehicle.* |
-| ![Wildlife of the Seine valley, 1894 (AI-generated image)](fotos/23-conceptos-fauna-sena-1894.jpg) | ![Interwar cars (AI-generated image)](fotos/21-conceptos-coches-entreguerras.jpg) |
-| *Normande cow, saddle horse, draught horse, Merino sheep, grey heron and mallard. AI-generated concepts (FLUX.1 [schnell]); not a game screenshot.* | *Concepts of cars from the 1920s and 1930s, for the interwar period. AI-generated image (FLUX.1 [schnell]); not a game screenshot or a photo of a real car.* |
-| ![Interwar people (AI-generated image)](fotos/22-conceptos-personas-entreguerras.jpg) | |
-| *Concepts of people from the 1920s and 1930s, seen from the front, in clothes inspired by the period. AI-generated image (FLUX.1 [schnell]); not a game screenshot, and it does not depict real people.* | |
+| ![1894 rival concepts (I)](fotos/19-conceptos-rivales-1894-a.jpg) | ![1894 rival concepts (II)](fotos/20-conceptos-rivales-1894-b.jpg) |
+| *Concepts of rival vehicles inspired by the 1894 Paris-Rouen race. Not a photo of a real vehicle.* | *More concepts of rival vehicles inspired by the 1894 Paris-Rouen race. Not a photo of a real vehicle.* |
+| ![Wildlife of the Seine valley, 1894](fotos/23-conceptos-fauna-sena-1894.jpg) | ![Interwar cars](fotos/21-conceptos-coches-entreguerras.jpg) |
+| *Normande cow, saddle horse, draught horse, Merino sheep, grey heron and mallard. Concepts of the wildlife of the Seine valley.* | *Concepts of cars from the 1920s and 1930s, for the interwar period. Not a photo of a real car.* |
+| ![Interwar people](fotos/22-conceptos-personas-entreguerras.jpg) | |
+| *Concepts of people from the 1920s and 1930s, seen from the front, in clothes inspired by the period. It does not depict real people.* | |
 
 ## About the images
 
-- The header **banner** is an **AI-generated image** (FLUX.1 [schnell]).
-- **AI-made images:** the banner and the gallery concepts of rivals, wildlife, cars and people, all generated with FLUX.1 [schnell]. Each one carries the mark "Imagen generada con IA · AI-generated image" in a corner. The game screenshots, the 3D model renders and the map are our own work, without generative AI, except for the models of the 1894 rivals, which were modelled using as a reference template meshes generated with TripoSG from FLUX.1 [schnell] images; renders and screenshots in which they appear also carry the mark.
 - The **screenshots** are from the prototype in development, without the interface, and do not represent the final quality.
 - The **renders** are of the 3D models of the game's cars, still unfinished.
 - No image shows brands or logos of real manufacturers.
@@ -174,11 +172,13 @@ What comes next, in this order and **with no promised dates**:
 
 - **Godot Engine**, the game engine (MIT licence).
 - **Blender**, for the car models and renders (GPL licence; the models and images produced with Blender are our own).
-- **FLUX.1 [schnell]**, by Black Forest Labs, for the AI-generated images (Apache-2.0 licence).
-- **TripoSG**, by VAST-AI, for the template meshes of the 1894 rivals (MIT licence).
-- **BiRefNet**, to remove the background of the images before generating the meshes (MIT licence).
-- **scikit-image**, to extract the mesh surface (BSD-3 licence).
+- **FLUX.1 [schnell]**, by Black Forest Labs (Apache-2.0 licence).
+- **TripoSG**, by VAST-AI (MIT licence).
+- **BiRefNet** (MIT licence).
+- **scikit-image** (BSD-3 licence).
 - Data from the French **IGN**, under the Licence Ouverte Etalab 2.0 (see "About the images").
+
+The banner and the concept images were made with AI tools.
 
 ## The studio
 
