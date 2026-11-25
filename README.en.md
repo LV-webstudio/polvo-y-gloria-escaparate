@@ -1,5 +1,7 @@
 # POLVO Y GLORIA — historical open-road racing game (1894-1970)
 
+> **Game in development.** POLVO Y GLORIA is not finished yet: the images on this page are work in progress and may change. *Updated on 25 November 2026.*
+
 ![POLVO Y GLORIA, historical open-road racing](banner.jpg)
 
 <p align="center">
@@ -130,6 +132,12 @@ What comes next, in this order and **with no promised dates**:
 5. The cab and the three handling levels.
 6. Eras II to IV and, after that, the era V expansion.
 
+## In preparation
+
+- **Wildlife of the Seine valley.** The first stage, in the Seine valley in July 1894, will have the animals of the area and the period: Normande cows, draught and saddle horses, Merino sheep, Houdan hens and river birds such as the grey heron and the mallard.
+- **The 1894 rivals, in concept.** Concepts of the rival vehicles, inspired by the 1894 Paris-Rouen race: petrol and steam vehicles, with a canopy, with a folding hood or open, and a tricycle.
+- **The interwar years.** Another period is already being prepared, the 1920s and 1930s, with its cars and its people: sports two-seaters, open tourers and the everyday clothes of the time.
+
 ## Gallery
 
 | | |
@@ -146,14 +154,28 @@ What comes next, in this order and **with no promised dates**:
 | *Steam break-omnibus No. 10. Render of the 3D model.* | *Your car, No. 15. Render of the model with materials (studio livery).* |
 | ![Driving position](fotos/03-coche-n15-puesto-de-conduccion.jpg) | ![Morning light, wet road surface](fotos/06-luz-manana-firme-mojado.jpg) |
 | *The driving position: tiller, levers and tufted seat. Render.* | *Morning light with a wet road surface. Real screenshot of the prototype, ultra quality.* |
+| ![1894 rival concepts (I)](fotos/19-conceptos-rivales-1894-a.jpg) | ![1894 rival concepts (II)](fotos/20-conceptos-rivales-1894-b.jpg) |
+| *Concepts of rival vehicles inspired by the 1894 Paris-Rouen race. AI-generated image (FLUX.1 [schnell]); not a game screenshot.* | *More concepts of rival vehicles inspired by the 1894 Paris-Rouen race. AI-generated image (FLUX.1 [schnell]).* |
+| ![Wildlife of the Seine valley, 1894](fotos/23-conceptos-fauna-sena-1894.jpg) | ![Interwar cars](fotos/21-conceptos-coches-entreguerras.jpg) |
+| *Normande cow, saddle horse, draught horse, Merino sheep, grey heron and mallard. AI-generated concepts (FLUX.1 [schnell]).* | *Concepts of cars from the 1920s and 1930s, for the interwar period. AI-generated image (FLUX.1 [schnell]).* |
+| ![Interwar people](fotos/22-conceptos-personas-entreguerras.jpg) | |
+| *Concepts of people from the 1920s and 1930s, seen from the front, in period clothes. AI-generated image (FLUX.1 [schnell]); they are not real people.* | |
 
 ## About the images
 
-- The header **banner** is an **AI-generated image** (FLUX.1-schnell).
+- The header **banner** is an **AI-generated image** (FLUX.1 [schnell]).
+- **AI-made images:** the banner and the gallery concepts of rivals, wildlife, cars and people, all generated with FLUX.1 [schnell]. Each one carries the mark "Imagen generada con IA · AI-generated image" in a corner. The screenshots, the renders and the map are not AI-generated.
 - The **screenshots** are from the prototype in development, without the interface, and do not represent the final quality.
 - The **renders** are of the 3D models of the game's cars, still unfinished.
 - No image shows brands or logos of real manufacturers.
 - **Mapping and terrain:** © IGN – RGE ALTI®, BD TOPO®, SCAN État-major® 10K and 40K and BD CARTO® État-major, under the Licence Ouverte Etalab 2.0. Data consulted between 12 and 15 November 2026. It is a derived work: resampled terrain, terrain types and a route returned to 1894.
+
+## Credits and licences
+
+- **Godot Engine**, the game engine (MIT licence).
+- **Blender**, for the car models and renders (GPL licence; the models and images produced with Blender are our own).
+- **FLUX.1 [schnell]**, by Black Forest Labs, for the AI-generated images (Apache-2.0 licence).
+- Data from the French **IGN**, under the Licence Ouverte Etalab 2.0 (see "About the images").
 
 ## The studio
 

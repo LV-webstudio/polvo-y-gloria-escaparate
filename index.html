@@ -343,6 +343,18 @@
       .masthead-top { flex-direction: column; gap: 0.3rem; text-align: center; }
       .era-years { white-space: normal; }
     }
+    .gallery-item img.mosaico { object-fit: contain; }
+    .aviso-desarrollo {
+      border: 2px solid var(--accent-rust);
+      background-color: #efe0c4;
+      padding: 0.9rem 1.2rem;
+      margin: 0 0 1.8rem;
+      text-align: center;
+      font-size: 1.1rem;
+      line-height: 1.5;
+    }
+    .aviso-desarrollo strong { color: var(--accent-rust); font-family: 'Cinzel', serif; letter-spacing: 0.06em; }
+    .aviso-fecha { display: block; font-size: 0.95rem; font-style: italic; color: var(--ink-muted); margin-top: 0.2rem; }
     .prose p { margin: 0 0 1rem; }
     .prose ul, .info-block ol { margin: 0 0 1rem 1.4rem; }
     .prose li, .info-block ol li { margin-bottom: 0.35rem; }
@@ -365,6 +377,11 @@
     </header>
 
     <hr class="double-rule">
+
+    <aside class="aviso-desarrollo" role="note">
+      <strong>Juego en desarrollo.</strong> POLVO Y GLORIA todavía no está terminado: las imágenes de esta página son de trabajo y pueden cambiar.
+      <span class="aviso-fecha">Página actualizada el 25 de noviembre de 2026.</span>
+    </aside>
 
     <figure class="hero-banner gallery-zoom" tabindex="0" data-caption="Cabecera de POLVO Y GLORIA (imagen generada con IA).">
       <img src="banner.jpg" alt="Cabecera de Polvo y Gloria: carrera histórica en carretera de época (imagen generada con IA)">
@@ -528,6 +545,23 @@
       </article>
     </section>
 
+    <div class="ornament-divider"><span>En preparación</span></div>
+
+    <section class="features-grid">
+      <article class="feature-card">
+        <h3>Fauna del valle del Sena</h3>
+        <p>El primer tramo, en el valle del Sena en julio de 1894, tendrá los animales de la zona y de la época: vacas normandas, caballos de tiro y de silla, ovejas merinas, gallinas de Houdan y aves del río, como la garza real y el ánade real.</p>
+      </article>
+      <article class="feature-card">
+        <h3>Los rivales de 1894, en concepto</h3>
+        <p>Conceptos de los vehículos rivales, inspirados en la carrera París-Ruan de 1894: coches de gasolina y de vapor, con toldo, con capota o descubiertos, y un triciclo.</p>
+      </article>
+      <article class="feature-card feature-wide">
+        <h3>La época de entreguerras</h3>
+        <p>Se prepara ya otra época, la de los años 20 y 30, con sus coches y su gente: biplazas deportivos, turismos descubiertos y la ropa de la calle de entonces.</p>
+      </article>
+    </section>
+
     <div class="ornament-divider"><span>Galería</span></div>
 
     <section class="gallery-grid">
@@ -591,6 +625,31 @@
         <div class="gallery-title">Luz de mañana, firme mojado</div>
         <figcaption class="gallery-caption">Luz de mañana con el firme mojado. Captura real del prototipo, calidad ultra.</figcaption>
       </figure>
+      <figure class="gallery-item gallery-zoom" tabindex="0">
+        <img class="mosaico" src="fotos/19-conceptos-rivales-1894-a.jpg" alt="Cuatro conceptos de vehículos rivales de 1894: un phaéton, un cuatro plazas con toldo de flecos, un biplaza con capota y un break-ómnibus de vapor (imagen generada con IA)" loading="lazy">
+        <div class="gallery-title">Rivales de 1894 (I)</div>
+        <figcaption class="gallery-caption">Conceptos de vehículos rivales inspirados en la carrera París-Ruan de 1894. Imagen generada con IA (FLUX.1 [schnell]); no es una captura del juego.</figcaption>
+      </figure>
+      <figure class="gallery-item gallery-zoom" tabindex="0">
+        <img class="mosaico" src="fotos/20-conceptos-rivales-1894-b.jpg" alt="Cuatro conceptos de vehículos rivales de 1894: una victoria remolcada con capota, un cuatro plazas con capota, un dos-à-dos y un triciclo de vapor (imagen generada con IA)" loading="lazy">
+        <div class="gallery-title">Rivales de 1894 (II)</div>
+        <figcaption class="gallery-caption">Más conceptos de vehículos rivales inspirados en la carrera París-Ruan de 1894. Imagen generada con IA (FLUX.1 [schnell]).</figcaption>
+      </figure>
+      <figure class="gallery-item gallery-zoom" tabindex="0">
+        <img class="mosaico" src="fotos/23-conceptos-fauna-sena-1894.jpg" alt="Vaca normanda, caballo de silla, caballo de tiro, oveja merina, garza real y ánade real (imagen generada con IA)" loading="lazy">
+        <div class="gallery-title">Fauna del valle del Sena, 1894</div>
+        <figcaption class="gallery-caption">Vaca normanda, caballo de silla, caballo de tiro, oveja merina, garza real y ánade real. Conceptos generados con IA (FLUX.1 [schnell]).</figcaption>
+      </figure>
+      <figure class="gallery-item gallery-zoom" tabindex="0">
+        <img class="mosaico" src="fotos/21-conceptos-coches-entreguerras.jpg" alt="Cuatro conceptos de coches de los años 20 y 30 (imagen generada con IA)" loading="lazy">
+        <div class="gallery-title">Coches de entreguerras</div>
+        <figcaption class="gallery-caption">Conceptos de coches de los años 20 y 30, para la época de entreguerras. Imagen generada con IA (FLUX.1 [schnell]).</figcaption>
+      </figure>
+      <figure class="gallery-item gallery-zoom" tabindex="0">
+        <img class="mosaico" src="fotos/22-conceptos-personas-entreguerras.jpg" alt="Siete conceptos de personas vestidas a la moda de los años 20 y 30 (imagen generada con IA)" loading="lazy">
+        <div class="gallery-title">La gente de entreguerras</div>
+        <figcaption class="gallery-caption">Conceptos de personas de los años 20 y 30, de frente, con la ropa de la época. Imagen generada con IA (FLUX.1 [schnell]); no son personas reales.</figcaption>
+      </figure>
     </section>
 
     <section class="info-columns">
@@ -613,11 +672,19 @@
       <div class="info-block">
         <h3>Sobre las imágenes</h3>
         <ul>
-          <li>El banner de cabecera es una imagen generada con IA (FLUX.1-schnell).</li>
+          <li>El banner de cabecera es una imagen generada con IA (FLUX.1 [schnell]).</li>
+          <li>Imágenes hechas con IA: el banner y los conceptos de rivales, fauna, coches y personas de la galería, todos generados con FLUX.1 [schnell]. Cada una lleva en una esquina la marca «Imagen generada con IA · AI-generated image». Las capturas, los renders y el mapa no están generados con IA.</li>
           <li>Las capturas son del prototipo en desarrollo, sin la interfaz, y no representan la calidad final.</li>
           <li>Los renders son de los modelos 3D de los coches del juego, todavía sin terminar.</li>
           <li>Ninguna imagen muestra marcas ni logotipos de fabricantes reales.</li>
           <li>Cartografía y relieve: © IGN – RGE ALTI®, BD TOPO®, SCAN État-major® 10K y 40K y BD CARTO® État-major, bajo la Licence Ouverte Etalab 2.0. Datos consultados entre el 12 y el 15 de noviembre de 2026. Es obra derivada: relieve remuestreado, tipos de terreno y trazado devuelto a 1894.</li>
+        </ul>
+        <h3 class="siguiente">Créditos y licencias</h3>
+        <ul>
+          <li><strong>Godot Engine</strong>, el motor del juego (licencia MIT).</li>
+          <li><strong>Blender</strong>, para los modelos y los renders de los coches (licencia GPL; los modelos y las imágenes que salen de Blender son nuestros).</li>
+          <li><strong>FLUX.1 [schnell]</strong>, de Black Forest Labs, para las imágenes generadas con IA (licencia Apache-2.0).</li>
+          <li>Datos del <strong>IGN</strong> de Francia, bajo la Licence Ouverte Etalab 2.0 (ver arriba).</li>
         </ul>
       </div>
     </section>

@@ -343,6 +343,18 @@
       .masthead-top { flex-direction: column; gap: 0.3rem; text-align: center; }
       .era-years { white-space: normal; }
     }
+    .gallery-item img.mosaico { object-fit: contain; }
+    .aviso-desarrollo {
+      border: 2px solid var(--accent-rust);
+      background-color: #efe0c4;
+      padding: 0.9rem 1.2rem;
+      margin: 0 0 1.8rem;
+      text-align: center;
+      font-size: 1.1rem;
+      line-height: 1.5;
+    }
+    .aviso-desarrollo strong { color: var(--accent-rust); font-family: 'Cinzel', serif; letter-spacing: 0.06em; }
+    .aviso-fecha { display: block; font-size: 0.95rem; font-style: italic; color: var(--ink-muted); margin-top: 0.2rem; }
     .prose p { margin: 0 0 1rem; }
     .prose ul, .info-block ol { margin: 0 0 1rem 1.4rem; }
     .prose li, .info-block ol li { margin-bottom: 0.35rem; }
@@ -365,6 +377,11 @@
     </header>
 
     <hr class="double-rule">
+
+    <aside class="aviso-desarrollo" role="note">
+      <strong>Game in development.</strong> POLVO Y GLORIA is not finished yet: the images on this page are work in progress and may change.
+      <span class="aviso-fecha">Page updated on 25 November 2026.</span>
+    </aside>
 
     <figure class="hero-banner gallery-zoom" tabindex="0" data-caption="POLVO Y GLORIA header (AI-generated image).">
       <img src="../banner.jpg" alt="Polvo y Gloria header: a historical road race of the period (AI-generated image)">
@@ -528,6 +545,23 @@
       </article>
     </section>
 
+    <div class="ornament-divider"><span>In preparation</span></div>
+
+    <section class="features-grid">
+      <article class="feature-card">
+        <h3>Wildlife of the Seine valley</h3>
+        <p>The first stage, in the Seine valley in July 1894, will have the animals of the area and the period: Normande cows, draught and saddle horses, Merino sheep, Houdan hens and river birds such as the grey heron and the mallard.</p>
+      </article>
+      <article class="feature-card">
+        <h3>The 1894 rivals, in concept</h3>
+        <p>Concepts of the rival vehicles, inspired by the 1894 Paris-Rouen race: petrol and steam vehicles, with a canopy, with a folding hood or open, and a tricycle.</p>
+      </article>
+      <article class="feature-card feature-wide">
+        <h3>The interwar years</h3>
+        <p>Another period is already being prepared, the 1920s and 1930s, with its cars and its people: sports two-seaters, open tourers and the everyday clothes of the time.</p>
+      </article>
+    </section>
+
     <div class="ornament-divider"><span>Gallery</span></div>
 
     <section class="gallery-grid">
@@ -591,6 +625,31 @@
         <div class="gallery-title">Morning light, wet road surface</div>
         <figcaption class="gallery-caption">Morning light with a wet road surface. Real screenshot of the prototype, ultra quality.</figcaption>
       </figure>
+      <figure class="gallery-item gallery-zoom" tabindex="0">
+        <img class="mosaico" src="../fotos/19-conceptos-rivales-1894-a.jpg" alt="Four concepts of 1894 rival vehicles: a phaéton, a four-seater with a fringed canopy, a two-seater with a folding hood and a steam break-omnibus (AI-generated image)" loading="lazy">
+        <div class="gallery-title">1894 rivals (I)</div>
+        <figcaption class="gallery-caption">Concepts of rival vehicles inspired by the 1894 Paris-Rouen race. AI-generated image (FLUX.1 [schnell]); not a game screenshot.</figcaption>
+      </figure>
+      <figure class="gallery-item gallery-zoom" tabindex="0">
+        <img class="mosaico" src="../fotos/20-conceptos-rivales-1894-b.jpg" alt="Four concepts of 1894 rival vehicles: a towed victoria with a hood, a four-seater with a folding hood, a dos-à-dos and a steam tricycle (AI-generated image)" loading="lazy">
+        <div class="gallery-title">1894 rivals (II)</div>
+        <figcaption class="gallery-caption">More concepts of rival vehicles inspired by the 1894 Paris-Rouen race. AI-generated image (FLUX.1 [schnell]).</figcaption>
+      </figure>
+      <figure class="gallery-item gallery-zoom" tabindex="0">
+        <img class="mosaico" src="../fotos/23-conceptos-fauna-sena-1894.jpg" alt="Normande cow, saddle horse, draught horse, Merino sheep, grey heron and mallard (AI-generated image)" loading="lazy">
+        <div class="gallery-title">Wildlife of the Seine valley, 1894</div>
+        <figcaption class="gallery-caption">Normande cow, saddle horse, draught horse, Merino sheep, grey heron and mallard. AI-generated concepts (FLUX.1 [schnell]).</figcaption>
+      </figure>
+      <figure class="gallery-item gallery-zoom" tabindex="0">
+        <img class="mosaico" src="../fotos/21-conceptos-coches-entreguerras.jpg" alt="Four concepts of cars from the 1920s and 1930s (AI-generated image)" loading="lazy">
+        <div class="gallery-title">Interwar cars</div>
+        <figcaption class="gallery-caption">Concepts of cars from the 1920s and 1930s, for the interwar period. AI-generated image (FLUX.1 [schnell]).</figcaption>
+      </figure>
+      <figure class="gallery-item gallery-zoom" tabindex="0">
+        <img class="mosaico" src="../fotos/22-conceptos-personas-entreguerras.jpg" alt="Seven concepts of people dressed in the fashion of the 1920s and 1930s (AI-generated image)" loading="lazy">
+        <div class="gallery-title">Interwar people</div>
+        <figcaption class="gallery-caption">Concepts of people from the 1920s and 1930s, seen from the front, in period clothes. AI-generated image (FLUX.1 [schnell]); they are not real people.</figcaption>
+      </figure>
     </section>
 
     <section class="info-columns">
@@ -613,11 +672,19 @@
       <div class="info-block">
         <h3>About the images</h3>
         <ul>
-          <li>The header banner is an AI-generated image (FLUX.1-schnell).</li>
+          <li>The header banner is an AI-generated image (FLUX.1 [schnell]).</li>
+          <li>AI-made images: the banner and the gallery concepts of rivals, wildlife, cars and people, all generated with FLUX.1 [schnell]. Each one carries the mark "Imagen generada con IA · AI-generated image" in a corner. The screenshots, the renders and the map are not AI-generated.</li>
           <li>The screenshots are from the prototype in development, without the interface, and do not represent the final quality.</li>
           <li>The renders are of the 3D models of the game's cars, still unfinished.</li>
           <li>No image shows brands or logos of real manufacturers.</li>
           <li>Mapping and terrain: © IGN – RGE ALTI®, BD TOPO®, SCAN État-major® 10K and 40K and BD CARTO® État-major, under the Licence Ouverte Etalab 2.0. Data consulted between 12 and 15 November 2026. It is a derived work: resampled terrain, terrain types and a route returned to 1894.</li>
+        </ul>
+        <h3 class="siguiente">Credits and licences</h3>
+        <ul>
+          <li><strong>Godot Engine</strong>, the game engine (MIT licence).</li>
+          <li><strong>Blender</strong>, for the car models and renders (GPL licence; the models and images produced with Blender are our own).</li>
+          <li><strong>FLUX.1 [schnell]</strong>, by Black Forest Labs, for the AI-generated images (Apache-2.0 licence).</li>
+          <li>Data from the French <strong>IGN</strong>, under the Licence Ouverte Etalab 2.0 (see above).</li>
         </ul>
       </div>
     </section>

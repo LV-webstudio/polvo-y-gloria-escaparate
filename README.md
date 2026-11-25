@@ -1,5 +1,7 @@
 # POLVO Y GLORIA — juego de carreras históricas en carretera abierta (1894-1970)
 
+> **Juego en desarrollo.** POLVO Y GLORIA todavía no está terminado: las imágenes de esta página son de trabajo y pueden cambiar. *Actualizado el 25 de noviembre de 2026.*
+
 ![POLVO Y GLORIA, carreras históricas en carretera abierta](banner.jpg)
 
 <p align="center">
@@ -130,6 +132,12 @@ Lo que viene, en este orden y **sin fechas prometidas**:
 5. La cabina y los tres niveles de manejo.
 6. Las eras II a IV y, después, la expansión de la era V.
 
+## En preparación
+
+- **Fauna del valle del Sena.** El primer tramo, en el valle del Sena en julio de 1894, tendrá los animales de la zona y de la época: vacas normandas, caballos de tiro y de silla, ovejas merinas, gallinas de Houdan y aves del río, como la garza real y el ánade real.
+- **Los rivales de 1894, en concepto.** Conceptos de los vehículos rivales, inspirados en la carrera París-Ruan de 1894: coches de gasolina y de vapor, con toldo, con capota o descubiertos, y un triciclo.
+- **La época de entreguerras.** Se prepara ya otra época, la de los años 20 y 30, con sus coches y su gente: biplazas deportivos, turismos descubiertos y la ropa de la calle de entonces.
+
 ## Galería
 
 | | |
@@ -146,14 +154,28 @@ Lo que viene, en este orden y **sin fechas prometidas**:
 | *El break-ómnibus de vapor n.º 10. Render del modelo 3D.* | *Tu coche, el n.º 15. Render del modelo con materiales (librea en estudio).* |
 | ![Puesto de conducción](fotos/03-coche-n15-puesto-de-conduccion.jpg) | ![Luz de mañana, firme mojado](fotos/06-luz-manana-firme-mojado.jpg) |
 | *El puesto de conducción: caña de dirección, palancas y asiento capitoné. Render.* | *Luz de mañana con el firme mojado. Captura real del prototipo, calidad ultra.* |
+| ![Conceptos de rivales de 1894 (I)](fotos/19-conceptos-rivales-1894-a.jpg) | ![Conceptos de rivales de 1894 (II)](fotos/20-conceptos-rivales-1894-b.jpg) |
+| *Conceptos de vehículos rivales inspirados en la carrera París-Ruan de 1894. Imagen generada con IA (FLUX.1 [schnell]); no es una captura del juego.* | *Más conceptos de vehículos rivales inspirados en la carrera París-Ruan de 1894. Imagen generada con IA (FLUX.1 [schnell]).* |
+| ![Fauna del valle del Sena, 1894](fotos/23-conceptos-fauna-sena-1894.jpg) | ![Coches de entreguerras](fotos/21-conceptos-coches-entreguerras.jpg) |
+| *Vaca normanda, caballo de silla, caballo de tiro, oveja merina, garza real y ánade real. Conceptos generados con IA (FLUX.1 [schnell]).* | *Conceptos de coches de los años 20 y 30, para la época de entreguerras. Imagen generada con IA (FLUX.1 [schnell]).* |
+| ![La gente de entreguerras](fotos/22-conceptos-personas-entreguerras.jpg) | |
+| *Conceptos de personas de los años 20 y 30, de frente, con la ropa de la época. Imagen generada con IA (FLUX.1 [schnell]); no son personas reales.* | |
 
 ## Sobre las imágenes
 
-- El **banner** de cabecera es una **imagen generada con IA** (FLUX.1-schnell).
+- El **banner** de cabecera es una **imagen generada con IA** (FLUX.1 [schnell]).
+- **Imágenes hechas con IA:** el banner y los conceptos de rivales, fauna, coches y personas de la galería, todos generados con FLUX.1 [schnell]. Cada una lleva en una esquina la marca «Imagen generada con IA · AI-generated image». Las capturas, los renders y el mapa no están generados con IA.
 - Las **capturas** son del prototipo en desarrollo, sin la interfaz, y no representan la calidad final.
 - Los **renders** son de los modelos 3D de los coches del juego, todavía sin terminar.
 - Ninguna imagen muestra marcas ni logotipos de fabricantes reales.
 - **Cartografía y relieve:** © IGN – RGE ALTI®, BD TOPO®, SCAN État-major® 10K y 40K y BD CARTO® État-major, bajo la Licence Ouverte Etalab 2.0. Datos consultados entre el 12 y el 15 de noviembre de 2026. Es obra derivada: relieve remuestreado, tipos de terreno y trazado devuelto a 1894.
+
+## Créditos y licencias
+
+- **Godot Engine**, el motor del juego (licencia MIT).
+- **Blender**, para los modelos y los renders de los coches (licencia GPL; los modelos y las imágenes que salen de Blender son nuestros).
+- **FLUX.1 [schnell]**, de Black Forest Labs, para las imágenes generadas con IA (licencia Apache-2.0).
+- Datos del **IGN** de Francia, bajo la Licence Ouverte Etalab 2.0 (ver «Sobre las imágenes»).
 
 ## El estudio
 
