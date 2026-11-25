@@ -164,7 +164,7 @@ What comes next, in this order and **with no promised dates**:
 ## About the images
 
 - The header **banner** is an **AI-generated image** (FLUX.1 [schnell]).
-- **AI-made images:** the banner and the gallery concepts of rivals, wildlife, cars and people, all generated with FLUX.1 [schnell]. Each one carries the mark "Imagen generada con IA · AI-generated image" in a corner. The game screenshots, the 3D model renders and the map are our own work, without generative AI, except for the models of the 1894 rivals, which are based on template meshes generated with TripoSG from FLUX.1 [schnell] images; renders and screenshots in which they appear also carry the mark.
+- **AI-made images:** the banner and the gallery concepts of rivals, wildlife, cars and people, all generated with FLUX.1 [schnell]. Each one carries the mark "Imagen generada con IA · AI-generated image" in a corner. The game screenshots, the 3D model renders and the map are our own work, without generative AI, except for the models of the 1894 rivals, which were modelled using as a reference template meshes generated with TripoSG from FLUX.1 [schnell] images; renders and screenshots in which they appear also carry the mark.
 - The **screenshots** are from the prototype in development, without the interface, and do not represent the final quality.
 - The **renders** are of the 3D models of the game's cars, still unfinished.
 - No image shows brands or logos of real manufacturers.
